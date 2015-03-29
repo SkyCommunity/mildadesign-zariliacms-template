@@ -1,0 +1,320 @@
+body {background-image:url(../images/parts/jura.PNG); background-repeat:repeat-x; background-color:#cfe0eb;
+margin:0; 
+padding:0; 
+height:100%; 
+color:#FFF; 
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10pt;
+line-height: 15pt;
+}
+
+object, embed {
+	border-color: transparent;
+	border-width: 0px;
+	border-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content_text h3, #content_text div.zar_title {
+  font-size: 21pt;
+  font-weight: normal;
+  padding: 0px;
+  margin: 0px;
+}
+
+#content_text h4, #content_text div.zar_subtitle {
+  font-size: 14pt;
+  font-weight: normal;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
+
+td {
+   vertical-align: top;
+   text-align: left;
+}
+
+a, .itemAdminLink a { font-weight: bold; text-align:center; color: #FFF; text-decoration:none; padding-left: 2px; padding-right: 2px;}
+a:hover, a:active, .itemAdminLink a:hover, .itemAdminLink a:active { color:#000; background-color:#FFF;}
+
+#tinklalapis  {position: absolute;  margin: 0; padding: 0; top: 0px; left: 0px;  width:100%; height: 100%; background-image:url( ../images/bottom/debesys_.png); background-attachment: fixed; background-position: bottom left; background-repeat:no-repeat;}
+
+#header {height:150px; width:900px; }
+#heder1{height: 150px; width: 206px; background-image: url(../images/header/bala.png);background-repeat:no-repeat; cursor: pointer; display: block; border-style: none; position: absolute; left: 0px; top: 0px;}
+#heder2{height: 150px; background-image: url(../images/header/sniege.jpg);background-repeat:no-repeat; width: 693px; display: block; position: absolute; left: 207px; top: 0px;}
+
+#meniu p{padding: 0 30px 0 30px; margin : 0;}
+#meniu ul{ padding:0; margin:0;}
+#meniu li {padding: 0 0 0 20px;}
+#meniu {position:absolute; top:130px; width:210px; }
+#mv_meniu, .ma, .m, #mv_reklama, #mv_prisijungimas {background-repeat:no-repeat;}
+#mv_meniu, .ma, .m {width:100%;}
+.ma, .m, #mv_meniu{background-image:url(../images/menu/mc.png);}
+.ma {height:26px; background-position:bottom;}
+#mv_reklama, #mv_prisijungimas, #mv_manoinfo, #mv_paieska, #mv_meniu{background-position:top; height:46px; width:100%;}
+#mv_manoinfo {background-image:url(../images/menu/mv_manoinfo.png);}
+#mv_paieska  {background-image:url(../images/menu/mv_paieska.png);}
+#mv_prisijungimas {background-image:url(../images/menu/mv_prisijungimas.png);}
+#mv_reklama {background-image:url(../images/menu/mv_reklama.png);}
+.m {background-image:url(../images/menu/mc.png); background-position:center; margin : 0;font-size: 12px; font-family:Arial, Helvetica, sans-serif; font-weight: bold;color:#FFF; }
+.m a { text-align:center; color: #FFF; text-decoration:none; display:block; width: 160px; background-color: #1AA9E6;text-transform: uppercase;}
+.m a:hover, .m a:active{ color:#FFDD65; background-color:#2AB9F6; letter-spacing: 1px;}
+
+#meniu, #turinys {float:left;}
+
+.m {
+  min-height: 30px;
+}
+
+#turinys {width : 700px; position:absolute; left:230px;}
+#content_text { padding-left: 20px; padding-right: 20px; }
+#t p, #t h3, td {color:#FFF; text-align: left;}
+/*#t h3 {margin: 0 40px 40px 40px;}*/
+#tvk, #tv, #tvd {height: 29px;}
+#tak, #ta, #tad {height: 26px;}
+#tvk, #tak {width : 23px;}
+#tvd, #tad{width : 21px;}
+#tv, #ta{width : 656px;}
+#t{width:100%;}
+#tv, #ta, #t {background-color:#1487B8;}
+#tvk {background-image:url(../images/parts/turinys_vk.png)}
+#tvd {background-image:url(../images/parts/turinys_vd.png)}
+#tak {background-image:url(../images/parts/turinys_ak.png)}
+#tad {background-image:url(../images/parts/turinys_ad.png)}
+#ta {background-image:url(../images/parts/turinys_a.png)}
+#t {background-image:url(../images/parts/turinys_d.png); background-position:right; background-repeat:repeat-y;}
+#tvk, #tv, #tvd, #t, #tak, #ta, #tad {float:left;}
+
+.m li  {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   overflow: hidden;
+   border-style: none;
+   list-style-type: none;
+}
+
+select, input {
+   border-top-color: white;
+   border-bottom-color: white;
+   border-left-color: transparent;
+   border-right-color: transparent;
+   border-width: 1px;
+}
+
+button, input[type="button"], input[type="submit"], input[type="reset"] {
+   background-color: #0D5573;
+   color: #D1EEFA;
+   border-style: solid;
+   font-weight: normal;
+   border-top-color: transparent;
+   border-bottom-color: #D2E6E7;
+   border-bottom-width: 2px
+   border-left-color: transparent;
+   border-right-color: transparent;
+   text-transform: capitalize;
+/*   background-image: url(../images/buttons/mygtukas10.png);*/
+}
+
+/*td {
+   border-style: solid;
+   border-width: 1px;
+   height: 100%;
+}*/
+
+table#profileheading, form#lostpass, form[name="registerform"] table {
+	border-style: solid;
+	border-color: #106A91;
+	background-color: #106A91;
+	width: 100%;
+}
+
+td.profile {
+   vertical-align: top;
+}
+
+form.usernav {
+   border-style: solid;
+   border-color: red;
+}
+
+#perdone {
+	background-image: url(../images/passwords/passsword.png);
+}
+
+hr {
+  border-style: solid;
+  border-color: white;
+}
+
+h3, h2, h1 {
+/*  text-transform: lowercase;*/
+}
+
+body {
+scrollbar-face-color: #158DBF;
+scrollbar-highlight-color: #106A91;
+scrollbar-3dlight-color: #106A91;
+scrollbar-shadow-color: #333333;
+scrollbar-darkshadow-color: #000000;
+scrollbar-arrow-color: #E2B650;
+scrollbar-track-color: #0D5573;
+}
+
+table.lists, table.links, table.comments {
+  width: 100%;
+  border-spacing: 2px;
+}
+
+table.lists tr td, table.links tr td, table.comments tr td {
+  background-color: #056D9F;
+  font-size: 8pt;
+  vertical-align: top;
+  text-align: left;
+  padding: 4px;
+}
+
+table.lists tr th, table.links tr th, table.comments tr th {
+  background-color: #0D5573;
+  vertical-align: top;
+  font-size: 9pt;
+  text-align: center;
+}
+
+table.comments td.nfo {
+  background-color: #0D5573;
+  vertical-align: top;
+  font-size: 8pt;
+  text-align: left;
+}
+
+/*div.poster, div.updated {
+  background-color: #0D5573;
+  vertical-align: top;
+  font-size: 9pt;
+  text-align: left;
+}*/
+
+.comTitle {
+  display: none;
+}
+
+table.comment_replies {
+  border-style: solid;
+  width: 100%;
+}
+
+div.itemStoryImage {
+   width: 60px;
+   height: 60px;
+   display: block;
+   overflow: hidden;
+   float: left;
+   padding-right: 20px;
+   padding-top: 5px;
+}
+
+div.itemStoryImage img {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border-style: none;
+  background-color: white;
+  opacity: 0.8;
+}
+
+div.itemStoryImage img:hover {
+ opacity: 0.9;
+}
+
+div.itemTopPart h3, div.itemTopPart h4, div.itemTopPart h5{
+  margin:0px;
+}
+
+div.itemTopPart h5 {
+  font-size: 10pt;
+  font-weight: normal;
+}
+
+a.itemStoryImage:hover {
+  background-color: red;
+}
+
+.zar_heading {
+   display: none;
+}
+
+td.itemHead, td {
+  vertical-align: top;
+  text-align:left;
+}
+
+td.itemHead {
+/*  white-space: nowrap;*/
+}
+
+.hidden {
+   visibility: hidden;
+}
+
+.data .comText {
+  height: 50px;
+}
+
+div.warning {
+  display:none;
+}
+
+form#userlogin {
+  margin: 0px;
+  padding: 0px;
+}
+
+form#userlogin input[type="text"], form#userlogin input[type="password"] {
+  width: 155px;
+  opacity: 0.6;
+  font-size: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-top-color: blue;
+  border-left-color: blue;
+  border-bottom-color: white;
+  border-bottom-color: white;
+
+}
+
+form#userlogin input[type="checkbox"] {
+   opacity: 0.6;
+}
+
+form#userlogin input[type="submit"], form#userlogin button, form#userlogin input[type="button"] {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  margin-top: 5px;
+  float: center;
+  font-size: 11px;
+  height: 18px;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: -2px;
+}
+
+.m .cx {
+   padding-left: 30px;
+}
+
+form[name="registerform"] .buttons {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1px;
+}
+
+button {
+  padding-top: 0px;
+}
